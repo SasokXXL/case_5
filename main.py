@@ -69,7 +69,7 @@ resources3 = {"money": 1000, "people": 1000, "army": 1000, "faith": 1000}
 
 print(f"Ход {team1} команды")
 print(f"Ресурсы команды:{resources1}")
-turn = int(input("Введите число от 1 до 20:"))
+turn = int(input("Ведите число от 1 до 2:0:"))
 revent = random.choice(revents)
 print(f"Событие: {revent['name']}")
 resources1["money"] += revent["money"]
@@ -81,7 +81,7 @@ end = input("Ход завершен. Для продолжения нажмит
 print("-------------------------------------------------------------")
 print(f"Ход {team2} команды")
 print(f"Ресурсы команды:{resources2}")
-turn = int(input("Введите число от 1 до 20:"))
+turn = int(input("Ведите число от 1 до 2:0:"))
 revent = random.choice(revents)
 print(f"Событие: {revent['name']}")
 resources2["money"] += revent["money"]
@@ -93,7 +93,7 @@ end = input("Ход завершен. Для продолжения нажмит
 print("-------------------------------------------------------------")
 print(f"Ход {team3} команды")
 print(f"Ресурсы команды:{resources3}")
-turn = int(input("Введите число от 1 до 20:"))
+turn = int(input("Ведите число от 1 до 2:0:"))
 revent = random.choice(revents)
 print(f"Событие: {revent['name']}")
 resources3["money"] += revent["money"]
@@ -108,7 +108,7 @@ print("-------------------------------------------------------------")
 
 print(f"Ход {team1} команды")
 print(f"Ресурсы команды:{resources1}")
-turn = int(input("Введите число от 1 до 20:"))
+turn = int(input("Ведите число от 1 до 2:0:"))
 revent = random.choice(revents)
 print(f"Событие: {revent['name']}")
 resources1["money"] += revent["money"]
@@ -120,7 +120,7 @@ end = input("Ход завершен. Для продолжения нажмит
 print("-------------------------------------------------------------")
 print(f"Ход {team2} команды")
 print(f"Ресурсы команды:{resources2}")
-turn = int(input("Введите число от 1 до 20:"))
+turn = int(input("Ведите число от 1 до 2:0:"))
 revent = random.choice(revents)
 print(f"Событие: {revent['name']}")
 resources2["money"] += revent["money"]
@@ -132,7 +132,7 @@ end = input("Ход завершен. Для продолжения нажмит
 print("-------------------------------------------------------------")
 print(f"Ход {team3} команды")
 print(f"Ресурсы команды:{resources3}")
-turn = int(input("Введите число от 1 до 20:"))
+turn = int(input("Ведите число от 1 до 2:0:"))
 revent = random.choice(revents)
 print(f"Событие: {revent['name']}")
 resources3["money"] += revent["money"]
@@ -147,7 +147,7 @@ print("-------------------------------------------------------------")
 
 print(f"Ход {team1} команды")
 print(f"Ресурсы команды:{resources1}")
-turn = int(input("Введите число от 1 до 20:"))
+turn = int(input("Ведите число от 1 до 2:0:"))
 revent = random.choice(revents)
 print(f"Событие: {revent['name']}")
 resources1["money"] += revent["money"]
@@ -159,7 +159,7 @@ end = input("Ход завершен. Для продолжения нажмит
 print("-------------------------------------------------------------")
 print(f"Ход {team2} команды")
 print(f"Ресурсы команды:{resources2}")
-turn = int(input("Введите число от 1 до 20:"))
+turn = int(input("Ведите число от 1 до 2:0:"))
 revent = random.choice(revents)
 print(f"Событие: {revent['name']}")
 resources2["money"] += revent["money"]
@@ -171,7 +171,7 @@ end = input("Ход завершен. Для продолжения нажмит
 print("-------------------------------------------------------------")
 print(f"Ход {team3} команды")
 print(f"Ресурсы команды:{resources3}")
-turn = int(input("Введите число от 1 до 20:"))
+turn = int(input("Ведите число от 1 до 2:0:"))
 revent = random.choice(revents)
 print(f"Событие: {revent['name']}")
 resources3["money"] += revent["money"]
@@ -188,7 +188,7 @@ eventss = int(input('3 королевства собрались и после �
 event = events[eventss - 1]
 print(f"Событие: {event['name']}")
 if eventss == 1:
-    rand_input = int(input('Введите число от 1 до 2'))
+    rand_input = int(input('Ведите число от 1 до 2:'))
     war_random = random.choice(war)
     print(f"Событие: {war_random['name']}")
     resources1["money"] += war_random["money"]
@@ -208,7 +208,7 @@ if eventss == 1:
     print(f'Ресурсы команды {team3}:{resources3}')
     print('---------------------------------------------')
 elif eventss == 2:
-    rand_input = int(input('Введите число от 1 до 2'))
+    rand_input = int(input('Ведите число от 1 до 2:'))
     animals_random = random.choice(animals)
     print(f"Событие: {animals_random['name']}")
     resources1["money"] += animals_random["money"]
@@ -228,7 +228,7 @@ elif eventss == 2:
     print(f'Ресурсы команды {team3}:{resources3}')
     print('---------------------------------------------')
 elif eventss == 3:
-    rand_input = int(input('Введите число от 1 до 2'))
+    rand_input = int(input('Ведите число от 1 до 2:'))
     plague_random = random.choice(plague)
     print(f"Событие: {plague_random['name']}")
     resources1["money"] += plague_random["money"]
@@ -248,7 +248,7 @@ elif eventss == 3:
     print(f'Ресурсы команды {team3}:{resources3}')
     print('---------------------------------------------')
 elif eventss == 4:
-    rand_input = int(input('Введите число от 1 до 2'))
+    rand_input = int(input('Ведите число от 1 до 2:'))
     nlo_random = random.choice(nlo)
     print(f"Событие: {nlo_random['name']}")
     resources1["money"] += nlo_random["money"]
@@ -268,7 +268,7 @@ elif eventss == 4:
     print(f'Ресурсы команды {team3}:{resources3}')
     print('---------------------------------------------')
 elif eventss == 5:
-    rand_input = int(input('Введите число от 1 до 2'))
+    rand_input = int(input('Ведите число от 1 до 2:'))
     nekr_random = random.choice(nekr)
     print(f"Событие: {nekr_random['name']}")
     resources1["money"] += nekr_random["money"]
@@ -291,7 +291,7 @@ elif eventss == 5:
 
 print(f"Ход {team1} команды")
 print(f"Ресурсы команды:{resources1}")
-turn = int(input("Введите число от 1 до 20:"))
+turn = int(input("Ведите число от 1 до 2:0:"))
 revent = random.choice(revents)
 print(f"Событие: {revent['name']}")
 resources1["money"] += revent["money"]
@@ -303,7 +303,7 @@ end = input("Ход завершен. Для продолжения нажмит
 print("-------------------------------------------------------------")
 print(f"Ход {team2} команды")
 print(f"Ресурсы команды:{resources2}")
-turn = int(input("Введите число от 1 до 20:"))
+turn = int(input("Ведите число от 1 до 2:0:"))
 revent = random.choice(revents)
 print(f"Событие: {revent['name']}")
 resources2["money"] += revent["money"]
@@ -315,7 +315,7 @@ end = input("Ход завершен. Для продолжения нажмит
 print("-------------------------------------------------------------")
 print(f"Ход {team3} команды")
 print(f"Ресурсы команды:{resources3}")
-turn = int(input("Введите число от 1 до 20:"))
+turn = int(input("Ведите число от 1 до 2:0:"))
 revent = random.choice(revents)
 print(f"Событие: {revent['name']}")
 resources3["money"] += revent["money"]
@@ -330,7 +330,7 @@ print("-------------------------------------------------------------")
 
 print(f"Ход {team1} команды")
 print(f"Ресурсы команды:{resources1}")
-turn = int(input("Введите число от 1 до 20:"))
+turn = int(input("Ведите число от 1 до 2:0:"))
 revent = random.choice(revents)
 print(f"Событие: {revent['name']}")
 resources1["money"] += revent["money"]
@@ -342,7 +342,7 @@ end = input("Ход завершен. Для продолжения нажмит
 print("-------------------------------------------------------------")
 print(f"Ход {team2} команды")
 print(f"Ресурсы команды:{resources2}")
-turn = int(input("Введите число от 1 до 20:"))
+turn = int(input("Ведите число от 1 до 2:0:"))
 revent = random.choice(revents)
 print(f"Событие: {revent['name']}")
 resources2["money"] += revent["money"]
@@ -354,7 +354,7 @@ end = input("Ход завершен. Для продолжения нажмит
 print("-------------------------------------------------------------")
 print(f"Ход {team3} команды")
 print(f"Ресурсы команды:{resources3}")
-turn = int(input("Введите число от 1 до 20:"))
+turn = int(input("Ведите число от 1 до 2:0:"))
 revent = random.choice(revents)
 print(f"Событие: {revent['name']}")
 resources3["money"] += revent["money"]
@@ -369,7 +369,7 @@ print("-------------------------------------------------------------")
 
 print(f"Ход {team1} команды")
 print(f"Ресурсы команды:{resources1}")
-turn = int(input("Введите число от 1 до 20:"))
+turn = int(input("Ведите число от 1 до 2:0:"))
 revent = random.choice(revents)
 print(f"Событие: {revent['name']}")
 resources1["money"] += revent["money"]
@@ -381,7 +381,7 @@ end = input("Ход завершен. Для продолжения нажмит
 print("-------------------------------------------------------------")
 print(f"Ход {team2} команды")
 print(f"Ресурсы команды:{resources2}")
-turn = int(input("Введите число от 1 до 20:"))
+turn = int(input("Ведите число от 1 до 2:0:"))
 revent = random.choice(revents)
 print(f"Событие: {revent['name']}")
 resources2["money"] += revent["money"]
@@ -393,7 +393,7 @@ end = input("Ход завершен. Для продолжения нажмит
 print("-------------------------------------------------------------")
 print(f"Ход {team3} команды")
 print(f"Ресурсы команды:{resources3}")
-turn = int(input("Введите число от 1 до 20:"))
+turn = int(input("Ведите число от 1 до 2:0:"))
 revent = random.choice(revents)
 print(f"Событие: {revent['name']}")
 resources3["money"] += revent["money"]
@@ -410,7 +410,7 @@ eventss = int(input('3 королевства собрались и после �
 event = events[eventss - 1]
 print(f"Событие: {event['name']}")
 if eventss == 1:
-    rand_input = int(input('Введите число от 1 до 2'))
+    rand_input = int(input('Ведите число от 1 до 2:'))
     war_random = random.choice(war)
     print(f"Событие: {war_random['name']}")
     resources1["money"] += war_random["money"]
@@ -430,7 +430,7 @@ if eventss == 1:
     print(f'Ресурсы команды {team3}:{resources3}')
     print('---------------------------------------------')
 elif eventss == 2:
-    rand_input = int(input('Введите число от 1 до 2'))
+    rand_input = int(input('Ведите число от 1 до 2:'))
     animals_random = random.choice(animals)
     print(f"Событие: {animals_random['name']}")
     resources1["money"] += animals_random["money"]
@@ -450,7 +450,7 @@ elif eventss == 2:
     print(f'Ресурсы команды {team3}:{resources3}')
     print('---------------------------------------------')
 elif eventss == 3:
-    rand_input = int(input('Введите число от 1 до 2'))
+    rand_input = int(input('Ведите число от 1 до 2:'))
     plague_random = random.choice(plague)
     print(f"Событие: {plague_random['name']}")
     resources1["money"] += plague_random["money"]
@@ -470,7 +470,7 @@ elif eventss == 3:
     print(f'Ресурсы команды {team3}:{resources3}')
     print('---------------------------------------------')
 elif eventss == 4:
-    rand_input = int(input('Введите число от 1 до 2'))
+    rand_input = int(input('Ведите число от 1 до 2:'))
     nlo_random = random.choice(nlo)
     print(f"Событие: {nlo_random['name']}")
     resources1["money"] += nlo_random["money"]
@@ -490,7 +490,7 @@ elif eventss == 4:
     print(f'Ресурсы команды {team3}:{resources3}')
     print('---------------------------------------------')
 elif eventss == 5:
-    rand_input = int(input('Введите число от 1 до 2'))
+    rand_input = int(input('Ведите число от 1 до 2:'))
     nekr_random = random.choice(nekr)
     print(f"Событие: {nekr_random['name']}")
     resources1["money"] += nekr_random["money"]
@@ -513,7 +513,7 @@ elif eventss == 5:
 
 print(f"Ход {team1} команды")
 print(f"Ресурсы команды:{resources1}")
-turn = int(input("Введите число от 1 до 20:"))
+turn = int(input("Ведите число от 1 до 2:0:"))
 revent = random.choice(revents)
 print(f"Событие: {revent['name']}")
 resources1["money"] += revent["money"]
@@ -525,7 +525,7 @@ end = input("Ход завершен. Для продолжения нажмит
 print("-------------------------------------------------------------")
 print(f"Ход {team2} команды")
 print(f"Ресурсы команды:{resources2}")
-turn = int(input("Введите число от 1 до 20:"))
+turn = int(input("Ведите число от 1 до 2:0:"))
 revent = random.choice(revents)
 print(f"Событие: {revent['name']}")
 resources2["money"] += revent["money"]
@@ -537,7 +537,7 @@ end = input("Ход завершен. Для продолжения нажмит
 print("-------------------------------------------------------------")
 print(f"Ход {team3} команды")
 print(f"Ресурсы команды:{resources3}")
-turn = int(input("Введите число от 1 до 20:"))
+turn = int(input("Ведите число от 1 до 2:0:"))
 revent = random.choice(revents)
 print(f"Событие: {revent['name']}")
 resources3["money"] += revent["money"]
@@ -552,7 +552,7 @@ print("-------------------------------------------------------------")
 
 print(f"Ход {team1} команды")
 print(f"Ресурсы команды:{resources1}")
-turn = int(input("Введите число от 1 до 20:"))
+turn = int(input("Ведите число от 1 до 2:0:"))
 revent = random.choice(revents)
 print(f"Событие: {revent['name']}")
 resources1["money"] += revent["money"]
@@ -564,7 +564,7 @@ end = input("Ход завершен. Для продолжения нажмит
 print("-------------------------------------------------------------")
 print(f"Ход {team2} команды")
 print(f"Ресурсы команды:{resources2}")
-turn = int(input("Введите число от 1 до 20:"))
+turn = int(input("Ведите число от 1 до 2:0:"))
 revent = random.choice(revents)
 print(f"Событие: {revent['name']}")
 resources2["money"] += revent["money"]
@@ -576,7 +576,7 @@ end = input("Ход завершен. Для продолжения нажмит
 print("-------------------------------------------------------------")
 print(f"Ход {team3} команды")
 print(f"Ресурсы команды:{resources3}")
-turn = int(input("Введите число от 1 до 20:"))
+turn = int(input("Ведите число от 1 до 2:0:"))
 revent = random.choice(revents)
 print(f"Событие: {revent['name']}")
 resources3["money"] += revent["money"]
@@ -591,7 +591,7 @@ print("-------------------------------------------------------------")
 
 print(f"Ход {team1} команды")
 print(f"Ресурсы команды:{resources1}")
-turn = int(input("Введите число от 1 до 20:"))
+turn = int(input("Ведите число от 1 до 2:0:"))
 revent = random.choice(revents)
 print(f"Событие: {revent['name']}")
 resources1["money"] += revent["money"]
@@ -603,7 +603,7 @@ end = input("Ход завершен. Для продолжения нажмит
 print("-------------------------------------------------------------")
 print(f"Ход {team2} команды")
 print(f"Ресурсы команды:{resources2}")
-turn = int(input("Введите число от 1 до 20:"))
+turn = int(input("Ведите число от 1 до 2:0:"))
 revent = random.choice(revents)
 print(f"Событие: {revent['name']}")
 resources2["money"] += revent["money"]
@@ -615,7 +615,7 @@ end = input("Ход завершен. Для продолжения нажмит
 print("-------------------------------------------------------------")
 print(f"Ход {team3} команды")
 print(f"Ресурсы команды:{resources3}")
-turn = int(input("Введите число от 1 до 20:"))
+turn = int(input("Ведите число от 1 до 2:0:"))
 revent = random.choice(revents)
 print(f"Событие: {revent['name']}")
 resources3["money"] += revent["money"]
@@ -632,7 +632,7 @@ eventss = int(input('3 королевства собрались и после �
 event = events[eventss - 1]
 print(f"Событие: {event['name']}")
 if eventss == 1:
-    rand_input = int(input('Введите число от 1 до 2'))
+    rand_input = int(input('Ведите число от 1 до 2:'))
     war_random = random.choice(war)
     print(f"Событие: {war_random['name']}")
     resources1["money"] += war_random["money"]
@@ -652,7 +652,7 @@ if eventss == 1:
     print(f'Ресурсы команды {team3}:{resources3}')
     print('---------------------------------------------')
 elif eventss == 2:
-    rand_input = int(input('Введите число от 1 до 2'))
+    rand_input = int(input('Ведите число от 1 до 2:'))
     animals_random = random.choice(animals)
     print(f"Событие: {animals_random['name']}")
     resources1["money"] += animals_random["money"]
@@ -672,7 +672,7 @@ elif eventss == 2:
     print(f'Ресурсы команды {team3}:{resources3}')
     print('---------------------------------------------')
 elif eventss == 3:
-    rand_input = int(input('Введите число от 1 до 2'))
+    rand_input = int(input('Ведите число от 1 до 2:'))
     plague_random = random.choice(plague)
     print(f"Событие: {plague_random['name']}")
     resources1["money"] += plague_random["money"]
@@ -692,7 +692,7 @@ elif eventss == 3:
     print(f'Ресурсы команды {team3}:{resources3}')
     print('---------------------------------------------')
 elif eventss == 4:
-    rand_input = int(input('Введите число от 1 до 2'))
+    rand_input = int(input('Ведите число от 1 до 2:'))
     nlo_random = random.choice(nlo)
     print(f"Событие: {nlo_random['name']}")
     resources1["money"] += nlo_random["money"]
@@ -712,7 +712,7 @@ elif eventss == 4:
     print(f'Ресурсы команды {team3}:{resources3}')
     print('---------------------------------------------')
 elif eventss == 5:
-    rand_input = int(input('Введите число от 1 до 2'))
+    rand_input = int(input('Ведите число от 1 до 2:'))
     nekr_random = random.choice(nekr)
     print(f"Событие: {nekr_random['name']}")
     resources1["money"] += nekr_random["money"]
@@ -735,7 +735,7 @@ elif eventss == 5:
 
 print(f"Ход {team1} команды")
 print(f"Ресурсы команды:{resources1}")
-turn = int(input("Введите число от 1 до 20:"))
+turn = int(input("Ведите число от 1 до 2:0:"))
 revent = random.choice(revents)
 print(f"Событие: {revent['name']}")
 resources1["money"] += revent["money"]
@@ -747,7 +747,7 @@ end = input("Ход завершен. Для продолжения нажмит
 print("-------------------------------------------------------------")
 print(f"Ход {team2} команды")
 print(f"Ресурсы команды:{resources2}")
-turn = int(input("Введите число от 1 до 20:"))
+turn = int(input("Ведите число от 1 до 2:0:"))
 revent = random.choice(revents)
 print(f"Событие: {revent['name']}")
 resources2["money"] += revent["money"]
@@ -759,7 +759,7 @@ end = input("Ход завершен. Для продолжения нажмит
 print("-------------------------------------------------------------")
 print(f"Ход {team3} команды")
 print(f"Ресурсы команды:{resources3}")
-turn = int(input("Введите число от 1 до 20:"))
+turn = int(input("Ведите число от 1 до 2:0:"))
 revent = random.choice(revents)
 print(f"Событие: {revent['name']}")
 resources3["money"] += revent["money"]
@@ -774,7 +774,7 @@ print("-------------------------------------------------------------")
 
 print(f"Ход {team1} команды")
 print(f"Ресурсы команды:{resources1}")
-turn = int(input("Введите число от 1 до 20:"))
+turn = int(input("Ведите число от 1 до 2:0:"))
 revent = random.choice(revents)
 print(f"Событие: {revent['name']}")
 resources1["money"] += revent["money"]
@@ -786,7 +786,7 @@ end = input("Ход завершен. Для продолжения нажмит
 print("-------------------------------------------------------------")
 print(f"Ход {team2} команды")
 print(f"Ресурсы команды:{resources2}")
-turn = int(input("Введите число от 1 до 20:"))
+turn = int(input("Ведите число от 1 до 2:0:"))
 revent = random.choice(revents)
 print(f"Событие: {revent['name']}")
 resources2["money"] += revent["money"]
@@ -798,7 +798,7 @@ end = input("Ход завершен. Для продолжения нажмит
 print("-------------------------------------------------------------")
 print(f"Ход {team3} команды")
 print(f"Ресурсы команды:{resources3}")
-turn = int(input("Введите число от 1 до 20:"))
+turn = int(input("Ведите число от 1 до 2:0:"))
 revent = random.choice(revents)
 print(f"Событие: {revent['name']}")
 resources3["money"] += revent["money"]
@@ -813,7 +813,7 @@ print("-------------------------------------------------------------")
 
 print(f"Ход {team1} команды")
 print(f"Ресурсы команды:{resources1}")
-turn = int(input("Введите число от 1 до 20:"))
+turn = int(input("Ведите число от 1 до 2:0:"))
 revent = random.choice(revents)
 print(f"Событие: {revent['name']}")
 resources1["money"] += revent["money"]
@@ -825,7 +825,7 @@ end = input("Ход завершен. Для продолжения нажмит
 print("-------------------------------------------------------------")
 print(f"Ход {team2} команды")
 print(f"Ресурсы команды:{resources2}")
-turn = int(input("Введите число от 1 до 20:"))
+turn = int(input("Ведите число от 1 до 2:0:"))
 revent = random.choice(revents)
 print(f"Событие: {revent['name']}")
 resources2["money"] += revent["money"]
@@ -837,7 +837,7 @@ end = input("Ход завершен. Для продолжения нажмит
 print("-------------------------------------------------------------")
 print(f"Ход {team3} команды")
 print(f"Ресурсы команды:{resources3}")
-turn = int(input("Введите число от 1 до 20:"))
+turn = int(input("Ведите число от 1 до 2:0:"))
 revent = random.choice(revents)
 print(f"Событие: {revent['name']}")
 resources3["money"] += revent["money"]
@@ -854,7 +854,7 @@ eventss = int(input('3 королевства собрались и после �
 event = events[eventss - 1]
 print(f"Событие: {event['name']}")
 if eventss == 1:
-    rand_input = int(input('Введите число от 1 до 2'))
+    rand_input = int(input('Ведите число от 1 до 2:'))
     war_random = random.choice(war)
     print(f"Событие: {war_random['name']}")
     resources1["money"] += war_random["money"]
@@ -874,7 +874,7 @@ if eventss == 1:
     print(f'Ресурсы команды {team3}:{resources3}')
     print('---------------------------------------------')
 elif eventss == 2:
-    rand_input = int(input('Введите число от 1 до 2'))
+    rand_input = int(input('Ведите число от 1 до 2:'))
     animals_random = random.choice(animals)
     print(f"Событие: {animals_random['name']}")
     resources1["money"] += animals_random["money"]
@@ -894,7 +894,7 @@ elif eventss == 2:
     print(f'Ресурсы команды {team3}:{resources3}')
     print('---------------------------------------------')
 elif eventss == 3:
-    rand_input = int(input('Введите число от 1 до 2'))
+    rand_input = int(input('Ведите число от 1 до 2::'))
     plague_random = random.choice(plague)
     print(f"Событие: {plague_random['name']}")
     resources1["money"] += plague_random["money"]
@@ -914,7 +914,7 @@ elif eventss == 3:
     print(f'Ресурсы команды {team3}:{resources3}')
     print('---------------------------------------------')
 elif eventss == 4:
-    rand_input = int(input('Введите число от 1 до 2'))
+    rand_input = int(input('Ведите число от 1 до 2:'))
     nlo_random = random.choice(nlo)
     print(f"Событие: {nlo_random['name']}")
     resources1["money"] += nlo_random["money"]
@@ -934,7 +934,7 @@ elif eventss == 4:
     print(f'Ресурсы команды {team3}:{resources3}')
     print('---------------------------------------------')
 elif eventss == 5:
-    rand_input = int(input('Введите число от 1 до 2'))
+    rand_input = int(input('Ведите число от 1 до 2:'))
     nekr_random = random.choice(nekr)
     print(f"Событие: {nekr_random['name']}")
     resources1["money"] += nekr_random["money"]
